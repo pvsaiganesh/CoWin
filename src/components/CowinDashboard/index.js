@@ -58,7 +58,9 @@ class CowinDashboard extends Component {
           <div>
             <h1>Vaccination Coverage</h1>
             <VaccinationCoverage data={last7DaysVaccination} />
+            <h1>Vaccination by gender</h1>
             <VaccinationByAge data={vaccinationByAgeData} />
+            <h1>Vaccination by age</h1>
             <VaccinationByGender data={vaccinationByGenderData} />
           </div>
         )
